@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.content {
+  width: 50%;
+  background-color: cadetblue;
+  border: 2px solid;
+  border-radius: 20px;
+  position: relative;
+  height: 325px;
+
+}
+.customer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.questuin_number {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+
+}
+
+.question{
+  font-size: 16px;
+}
+.rating_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.prev {
+  background-color: blue;
+  color: #ffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next {
+  background-color: rgb(255, 0, 170);
+  color: #ffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit {
+  background-color: rgb(230, 144, 16);
+  color: #ffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 5px;
+
+}
+
+.rating_number {
+  background-color: #ffff;
+  border-radius: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  padding: 4px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: red !important;
+  color: #ffff !important;
+}
+
+.modal-footer {
+  border-top: none !important;
+}
+
+
+.modal-content {
+  width: 70% !important;
+  margin: 55% auto !important;
+}
+
+.feedback{
+  color: green;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control{
+  margin:0px 5px 0px 5px ;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 80% !important;
+  margin-right: auto;
+  margin-left: auto;
+}
